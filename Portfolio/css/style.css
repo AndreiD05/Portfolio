@@ -1,0 +1,97 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+  
+.jumbotron{
+  background-image: url(images/bg.jpg);
+}
+
+.container img {
+  border-radius: 50%;
+}
+
+.container h3{
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.about{
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  border: 10px solid;
+  border-image: repeat-linear-gradient(-30deg, #BF40BF, #ff85ad, #6b66ff 75px);
+}
+
+.about h2{
+  font-family: "Copperplate", fantasy;
+}
+
+.about p{
+  font-family: "monoco", monospace ;
+  font-size: 18px;
+}
+
+.container-fluid img{
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.container footer p{
+  font-family: "Copperplate", fantasy;
+}
+    
+/* Add a background image for the footer */
+footer {
+  background-image: url(images/bg.jpg);
+  padding: 25px;
+}
+
+.ftext p{
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.contacts{
+  height: auto;
+  width: 200px;
+  margin-left: 250px;
+  padding-top: 20px;
+}
+
+.contacts2{
+  height: auto;
+  width: 200px;
+  margin-left: 230px;
+  margin-bottom: 50px;
+  margin-top: -170px;
+}
+
+.contacts3{
+  height: auto;
+  width: 200px;
+  margin-left: 450px;
+  margin-bottom: 100px;
+  margin-top: -220px;
+}
+
+.email h2{
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.email p{
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.container .email{
+  margin-left: -240px;
+}
